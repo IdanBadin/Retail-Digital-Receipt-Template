@@ -8,7 +8,7 @@
 }
 
 .web-container {
-  background-color: white;
+  background-color: transparent;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
