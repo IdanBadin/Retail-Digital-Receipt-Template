@@ -1,0 +1,141 @@
+#body {
+  height: 100%;
+  width: 100%;
+  font-family: Open Sans Hebrew,sans-serif;
+  margin: 0;
+  padding: 0;
+  /* font-size: 16px; */
+}
+
+.web-container {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  /* -webkit-box-pack: start; */
+  /* justify-content: flex-start; */
+  /* -webkit-box-align: center; */
+  align-items: center;
+}
+
+.receipt-container {
+  background-color: orange;
+  /* height: fit-content; */
+  min-height: 500px;
+  height: fit-content;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 10px 0; */
+  /* margin-bottom: 50px; */
+}
+
+.receipt-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 13px 0px rgba(0,0,0,0.75);
+}
+
+.receipt-header {
+  background-color: whitesmoke;
+  height: fit-content;
+  min-height: 50px;
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 20px 0 0;
+}
+
+.businessName, .businessAddress, .businessPhone, .transactionNumber {
+  margin: 5px;
+  font-size: 14px;
+}
+
+.customerName {
+  width: 100%;
+  height: fit-content;
+  min-height: 50px;
+  background-color: whitesmoke;
+  /* margin-top: 10px; */
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.receipt-body {
+  background-color: whitesmoke;
+  height: fit-content;
+  min-height: 150px;
+  width: 100%;
+  /* margin: 10px; */
+}
+
+.receipt-bottom {
+  background-color: whitesmoke;
+  height: fit-content;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 0 0 20px 20px;
+}
+
+.receipt-bottom_2 {
+  background-color: orange;
+  height: fit-content;
+  min-height: 100px;
+  width: 85%;
+  padding-bottom: 30px;
+}
+
+.receipt-footer {
+  background-color: transparent;
+  text-align: center;
+  /* height: fit-content; */
+  height: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+tr.spaceUnder>th {
+  padding-bottom: 5px;
+}
+
+tr.spaceUnder>td {
+  padding-top: 5px;
+}
+
+tr.itemCodeCell>td {
+  padding-top: 2px;
+  padding-bottom: 5px;
+}
+
+tr.hr>td {
+  border-bottom: 2px dashed grey;
+}
+
+.social-logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
