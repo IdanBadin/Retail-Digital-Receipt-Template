@@ -171,7 +171,7 @@ for(var i=0; i < receipt.Items.length; i++) {
   var price = item.Price;
   var discount = getAddtionalValue(item, "Discount");
   var itemPriceAfterDiscount = price - discount;
-  $("#itemsTbl").append("<tr class='spaceUnder' style='font-size: 16px'><td id='itemNameCell' style='width: 160px'>"+item.Name+"</td><td>"+price.toFixed(2)+"</td><td style='padding-right: 10px'>"+itemPriceAfterDiscount.toFixed(2)+"</td></tr>");
+  $("#itemsTbl").append("<tr class='spaceUnder' style='font-size: 16px'><td id='itemNameCell' style='width: 160px'>"+item.Name+"</td><td>"+formatNumber(price.toFixed(2))+"</td><td style='padding-right: 10px'>"+formatNumber(itemPriceAfterDiscount.toFixed(2))+"</td></tr>");
   if(item.AdditionalData) {
     for(var ii=0; ii<item.AdditionalData.length; ii++) {
       var additionalItem = item.AdditionalData[ii];
